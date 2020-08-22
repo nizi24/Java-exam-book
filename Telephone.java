@@ -16,6 +16,6 @@ public class Telephone {
   }
 
   public void hungUp () {
-    System.out.println("bye!");
+    System.out.println("bye! bye!");
   }
 }

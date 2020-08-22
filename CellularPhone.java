@@ -6,7 +6,7 @@ public class CellularPhone extends Telephone {
   }
 
   public void hungUp () {
-    System.out.println("bye!");
+    super.hungUp();
     batteryRemaining  -= 10;
     System.out.println("batteryRemaining: " + batteryRemaining);
   }
